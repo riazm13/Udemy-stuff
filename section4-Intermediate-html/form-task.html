@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login form</title>
+</head>
+<body>
+<h1>Register</h1>
+<div>
+    <form>
+       <label for="firstName">First Name:</label>
+        <input name="firstName" id="name" type="text" placeholder="John" required >
+        <label for="password">Last Name:</label>
+        <input name="lastName" id="=name" type="text" placeholder="Smith" required> 
+        
+        
+        <form>
+        <div>
+        <p>Gender:</p>
+            <label for="male">Male:</label>
+            <input name="Gender" id="male" type="radio" value="male">
+            <label for="female">Female:</label>
+            <input name="Gender" id="female" type="radio" value="female">
+        </div>
+        <div>
+            <label for="Username">Username:</label>
+            <input name="Username" id="userName" type="email" required >
+            <label for="password">Password:</label>
+            <input name="Password" id="=password" type="password" placeholder="password" required minlength="5" maxlength="10">
+        </div>
+        <div>
+            <p>Date of Birth:</p>
+            <select name="DOB" id="dob">
+                <option value=Day>Day</option> 
+                <option>8</option>
+                <option>10</option>    
+            </select>
+            <select name="DOB" id="dob">  
+                <option value="Month">Month</option>
+                <option>Jan</option>
+                <option>feb</option>
+            </select>
+            <select name="DOB" id="dob">
+                <option value="Year">Year</option>      
+                <option>1997</option>
+                <option>2000</option>
+            </select>
+        </div>
+        <div>
+
+            <p>I agree to the terms and conditions <input type="checkbox" required></p> 
+        </div>    
+
+        <input type="submit">
+    </form>
+</div>
+    
+</body>
+</html>
