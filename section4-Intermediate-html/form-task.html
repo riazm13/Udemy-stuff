@@ -28,10 +28,11 @@
             <label for="Username">Username:</label>
             <input name="Username" id="userName" type="email" required >
             <label for="password">Password:</label>
-            <input name="Password" id="=password" type="password" placeholder="password" required minlength="5" maxlength="10">
+            <input name="Password" id="=password" type="password" placeholder="password" required pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
         </div>
         <div>
-            <p>Date of Birth:</p>
+            <label>
+            Date of Birth:
             <select name="DOB" id="dob">
                 <option value=Day>Day</option> 
                 <option>8</option>
@@ -47,6 +48,7 @@
                 <option>1997</option>
                 <option>2000</option>
             </select>
+        </label>
         </div>
         <div>
 
