@@ -1,0 +1,14 @@
+body{
+    background-color: burlywood;
+}
+
+#todo{
+    color:red;
+}
+
+li{
+    border: 1px dashed green;
+}
+.Todo{
+    background-color: darkgoldenrod;
+}

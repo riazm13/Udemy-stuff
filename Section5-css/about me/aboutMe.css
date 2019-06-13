@@ -1,0 +1,39 @@
+/* hexidecimal*/
+h1{
+    color: #55dd89;
+    /* border-color: purple;
+    border-width: 1px;
+    border-style: solid; */
+
+
+    border: 5px dashed blue;
+
+    /* Borders must have:
+        width
+        color
+        style */
+}
+/*normal words*/
+li{
+    color: blueviolet;
+}
+/* using RGB */
+h4{
+    color: rgb(100,000,150);
+}
+/* this is an example of RGBA which allows for transparency*/
+h3{
+    color: rgba( 0, 200, 60, .6)
+}
+
+body{
+    background-color: gray;
+    background: url(acdc.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background-color: black;
+}
+
