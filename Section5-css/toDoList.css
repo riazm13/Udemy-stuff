@@ -1,14 +1,53 @@
 body{
     background-color: burlywood;
 }
-
+/*  ID selector */
 #todo{
     color:red;
 }
 
+/* Element selector */
 li{
-    border: 1px dashed green;
+    border: 1px solid green;
 }
+
+/*  Class Selector */
 .Todo{
     background-color: darkgoldenrod;
+}
+/*  star selector */
+*{ 
+    border: 1px solid salmon;
+}
+
+/* Decendant selector */
+
+li a {
+    background: red;
+    /* you can also connect classes in this
+    li .className */
+}
+
+/*  Adjacent Selector */
+/* this allows you to select all of the things that come after the specified element */
+h4 + ul{
+    color: cyan
+}
+
+/* Attribute selector */
+
+/* this allows you to specifiy the input that is being used */
+a[href="http://www.google.com"]{
+    color: black;
+    border: 5px solid black;
+
+}
+
+
+/* nth of type selector */
+
+/* lets you specify what is going to be changed to the power of "n" so every third li or every 5th div */
+li:nth-last-of-type(3){
+    border: 50px dashed black;
+    font-size: 200%;
 }
