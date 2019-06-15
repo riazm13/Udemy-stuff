@@ -1,0 +1,25 @@
+body{
+    color: red;
+}
+/* type selecors are the least specific */
+ul{
+    color: purple;
+}
+
+li{
+    color: green;
+}
+/* class selectors are 10 times more specific than the type selectors */
+.highlight {
+    color: brown;
+}
+/* id selectors are 100 times more specific than the type selectors */
+#highlight1{
+    color: blue;
+}
+
+/* inline selectors on the other hand are 1000 times more specific than the type selectors */
+
+
+
+/* basically the more specific you are about certain things the more you can override changes in style */
