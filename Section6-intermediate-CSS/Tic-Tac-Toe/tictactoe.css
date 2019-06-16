@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+
+}
+h1{
+
+    padding: 2%;
+    font
+}
+
+table{
+    margin: 0 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+
+}
+
+
+.middle{
+    border: 10px solid black;
+}
+
+
+/* th tr{
+    margin: 0 50% ;
+    width: 100px;
+    height: 100px;
+
+}
+.first{
+    border-bottom: 2px solid black;
+}
+.second{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.third{
+    border-top: 2px solid black;
+}
+.special1{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.special2{
+    
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+
+} */
